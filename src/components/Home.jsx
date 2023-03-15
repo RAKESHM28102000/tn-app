@@ -3,13 +3,13 @@ import React from 'react';
 
 function Home() {
   return (<section id="home">
-    <div class="container-fluid">
-        <h1 class="text-center homeh1">TANPSYCON 2023</h1>
-        <p class="homep">Chengalpattu Medical College Hospital</p>
-        <p class="homep">DEPARTMENT OF PSYCHIATRY</p>
-        {/* <div class="input-group m-4">
-            <input type="text" class="form-control" placeholder="Email Address"/>
-            <button class="btn signin "><a href="" target="blank"> Get Started</a></button>
+    <div className="container-fluid">
+        <h1 className="text-center homeh1">TANPSYCON 2023</h1>
+        <p className="homep">Chengalpattu Medical College Hospital</p>
+        <p className="homep">DEPARTMENT OF PSYCHIATRY</p>
+        {/* <div className="input-group m-4">
+            <input type="text" className="form-control" placeholder="Email Address"/>
+            <button className="btn signin "><a href="" target="blank"> Get Started</a></button>
         </div> */}
     
     </div>
