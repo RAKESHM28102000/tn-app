@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <footer>
+    <footer className='container'>
     <div className="footerClass">
            <p>TANPSYCON 2023 Copyright </p>
     </div>

@@ -7,7 +7,7 @@ function Navbar() {
   return (<nav className="navbar navbar-expand-lg  bg-primay sticky-top" data-bs-theme="dark">
         <div className="container-fluid">
             <div className="navbarbrand">
-              <img src="./images/IMG-20230314-WA0009.jpg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top navbarBrandimage"/>
+              {/* <img src="./images/IMG-20230314-WA0009.jpg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top navbarBrandimage"/> */}
               <a className="navbar-brand" href="#home">TANPSYCON 2023</a>
             </div>
 

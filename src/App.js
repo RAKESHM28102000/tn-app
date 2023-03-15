@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from "./components/About";
 import Feed from "./components/Feed";
 import Form from "./components/Form";
-import Invite from "./components/Invite";
+// import Invite from "./components/Invite";
 import Contact from "./components/Contact";
 
 
@@ -18,7 +18,7 @@ function App() {
      <About/>
      <Feed/>
      <Form/>
-     <Invite/>
+     {/* <Invite/> */}
      <Contact/>
     </div>
   );

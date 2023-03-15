@@ -87,7 +87,7 @@ const[isclicked,setisclicked]=useState(false);
         <textarea onChange={setform} name="message" value={form.message}  rows={isclicked?3:1} cols="30" placeholder="Write here.."></textarea>
       </div>
        <br/>
-          <button type="submit" onClick={handelSubmit} className="submit btn btn-dark">submit</button>
+          <button type="submit" onClick={handelSubmit} className="submit btn-xl btn-dark">submit</button>
         </form>
    
       </div>

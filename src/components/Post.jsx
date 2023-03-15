@@ -20,6 +20,7 @@ function Post(props){
         }
         title={props.title}
         subheader={currentday}
+        sx={{fontSize:"50px",backgroundColor:"#676767",border:"3px solid black"}}
       />
       <CardMedia
         component="img"
