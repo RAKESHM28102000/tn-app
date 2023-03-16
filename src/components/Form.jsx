@@ -31,7 +31,7 @@ function  setform(event){
 function handelSubmit(event){
   console.log(form);
   alert("succesfully submitted");
-  alert("your name:"+form.name+",your emailId: "+form.email+",your Mobile No: "+form.mobileNo +", your Note: "+form.message);
+  alert("your name:"+form.name+", \n your emailId: "+form.email+", \n your Mobile No: "+form.mobileNo +", \n your Note: "+form.message);
 
       //  try{
       //      await axios.post("http://localhost:3000",{form})
