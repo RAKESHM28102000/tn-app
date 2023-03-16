@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React, { useState } from 'react';
 
 function Form() {
@@ -28,18 +28,19 @@ function  setform(event){
   
   });
 }
-
-  async function handelSubmit(event){
+function handelSubmit(event){
   console.log(form);
+  alert("succesfully submitted");
+  alert("your name:"+form.name+",your emailId: "+form.email+",your Mobile No: "+form.mobileNo +", your Note: "+form.message);
 
-       try{
-           await axios.post("http://localhost:3000",{form})
-           }
-       catch(e){
-            console.log(e);    
-            }
+      //  try{
+      //      await axios.post("http://localhost:3000",{form})
+      //      }
+      //  catch(e){
+      //       console.log(e);    
+      //       }
 
-   addForm(form);
+  addForm(form);
   setForm({
     name:"",
     email:"",
@@ -54,7 +55,7 @@ event.preventDefault();
 // const Add = addrtype.map(Add => Add )
 const[isclicked,setisclicked]=useState(false);
   return(<section id="report">
-      <div className="container-fluid">
+      <div className="container-fluid" >
         <h3 >CONTACT US</h3>
         <div className="container">
         <form  className="form" action="/" method="post">

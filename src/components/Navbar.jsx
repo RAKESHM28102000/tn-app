@@ -38,8 +38,8 @@ function Navbar() {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-              <button className="btn btn-outline-secondary search" type="submit"><a href="https://cmccpt.ac.in/" target="blank"> Search</a></button>
+              {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input> */}
+              <button className="btn btn-outline-secondary search" type="submit"><a href="https://www.youtube.com/channel/UCtoKV9N_yIK-U_FvXfxiFkg?app=desktop" target="blank">Watch</a></button>
             </form>
           </div>
         </div>
