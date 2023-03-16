@@ -57,7 +57,7 @@ const[isclicked,setisclicked]=useState(false);
   return(<section id="report">
       <div className="container-fluid" >
         <h3 >CONTACT US</h3>
-        <div className="container">
+        <div className="container form-class">
         <form  className="form" action="/" method="post">
           <div>
           <label className="form-label">Name</label>
@@ -85,7 +85,7 @@ const[isclicked,setisclicked]=useState(false);
         <br/><hr/>
         <div onClick={e=>setisclicked(true)}>
         <label className="form-label">Message</label>
-        <textarea onChange={setform} name="message" value={form.message}  rows={isclicked?3:1} cols="30" placeholder="Write here.."></textarea>
+        <textarea onChange={setform} name="message" value={form.message}  rows={isclicked?3:1} cols="25" placeholder="Write here.."></textarea>
       </div>
        <br/>
           <button type="submit" onClick={handelSubmit} className="submit btn-xl btn-dark">submit</button>

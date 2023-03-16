@@ -40,9 +40,14 @@ a{
 }
 #navbarSupportedContent button{
     border-radius:7%;
-    
- 
- }
+}
+
+#navbarSupportedContent .dropdown-item{
+    border-radius:7%;
+    width:80%;
+    background-color: #4d4d4d;
+    color:#e5e5e5
+}
  #navbarSupportedContent button a{
    text-decoration:none;
    background-color:#4d4d4d;
@@ -216,14 +221,18 @@ a{
 
 
 /*form*/
+.form-class{
+    display: flex;
+    justify-content: center;
+}
 .form{
-    font-size:40px;
+    font-size:30px;
     padding:50px;
-    width: auto;
+    width:50%;
     background-color: #676767;
 }
 .form-label{
-    padding:10px;
+    padding:5px;
     width: auto;
     text-align: left;
     display: block;
@@ -243,15 +252,15 @@ a{
 
 }
 .submit {
-    padding: 10px 20px;
+    padding:5px;
     color: rgb(255, 255, 255);
     font-size:40px;
-    font-weight:300;
+    font-weight:500;
     border-radius:10%;
     background-color: #4d4d4d;
-    width:50%;    
+    width:40%; 
 }
-/*c
+
 /*contact section*/ 
 #contact{
     width:100%;
